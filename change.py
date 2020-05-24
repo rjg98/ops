@@ -4,10 +4,10 @@
 # In[40]:
 
 
-k=open("MlOp.py",'r')
+k=open("/prog/MlOp.py",'r')
 a=k.readlines()
 k.close()
-count=open("data/COUNT.txt",'r')
+count=open("/data/data/COUNT.txt",'r')
 c=count.readlines()
 count.close()
 c
@@ -17,14 +17,14 @@ c
 
 
 if(c[0]=='1'):
-    with open ("MlOp.py",'w') as k:
+    with open ("/prog/MlOp.py",'w') as k:
             for l in a:
                 if l.strip("\n")!="l(32,count,size)":
                     k.write(l)
                 if l.strip("\n")=="l(32,count,size)":
                     k.write(l.replace('l(32,count,size)','l(32,count,size)\nl(16,count,size)'))
 elif(c[0]=='2'):
-    with open ("MlOp.py",'w') as k:
+    with open ("/prog/MlOp.py",'w') as k:
             for l in a:
                 if l.strip("\n")!="l(16,count,size)":
                     k.write(l)
