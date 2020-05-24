@@ -32,7 +32,7 @@ model.add(MaxPooling2D(pool_size=(2, 2)))
 # In[4]:
 
 
-with open("C:/Users/rajat/Desktop/ops/data/COUNT.TXT","r") as myfile:
+with open("data/data/COUNT.TXT","r") as myfile:
    c=(myfile.readlines())
    count=int(c[0])
 
@@ -56,7 +56,7 @@ def l(a,c,size):
 # In[ ]:
 
 
-l(32,count,size)
+l(32,count,3)
 
 
 # In[ ]:
