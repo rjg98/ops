@@ -35,7 +35,6 @@ elif(c[0]=='2'):
 
 # In[42]:
 
-
 print("model updated")
 
 
