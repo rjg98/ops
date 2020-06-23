@@ -32,7 +32,7 @@ model.add(MaxPooling2D(pool_size=(2, 2)))
 # In[4]:
 
 
-with open("/data/data/COUNT.TXT","r") as myfile:
+with open("/data/data/COUNT.txt","r") as myfile:
    c=(myfile.readlines())
    count=int(c[0])
 
@@ -119,7 +119,7 @@ scores[1]
 # In[ ]:
 
 
-print(count,file=open("/data/data/COUNT.TXT","w"),end="")
+print(count,file=open("/data/data/COUNT.txt","w"),end="")
 count
 
 
