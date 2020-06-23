@@ -57,8 +57,7 @@ def l(a,c,size):
 
 
 l(32,count,3)
-l(16,count,3)
-l(8,count,3)
+
 # In[ ]:
 
 
